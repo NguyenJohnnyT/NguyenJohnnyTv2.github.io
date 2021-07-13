@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny Nguyen</title>
+    <link rel="icon" type="image/png" href="./assets/images/eeveeFavicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Encode+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class=bg-dark>
+    <div class="jumbotron jumbotron-fluid p-4 bg-dark text-light">
+        <h1 class="display-4">Johnny Nguyen</h1>
+            <p class="lead">Hello and welcome to my website!</p>
+            <hr class="my-4">
+            <p>Based in Santa Clara, California, I am an aspiring programmer with practice in various languages including HTML, CSS, JavaScript, and Python</p>
+        <a class="btn btn-success btn-lg" href="#linksToWork" role="button">Projects</a>
+        <a class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactMe" href="#contactMe" role="button">Contact Me</a>
+        <a class="btn btn-warning btn-lg" href="./assets/#" role="button">Résumé</a>
+    </div>
+
+    <div id="carousel" class="carousel slide bg-secondary bg-gradient" data-bs-ride="carousel" >
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="./assets/images/Carousel/hawaii_.jpg" class="d-block w-100" alt="me in hawaii">
+          </div>
+          <div class="carousel-item">
+            <img src='./assets/images/Carousel/eevee_.jpg' class="d-block mx-auto h-85 " alt="me with eevee">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/Carousel/eska_.jpg" class="d-block mx-auto h-85 " alt="me with eska">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/Carousel/selfie_.jpg" class="d-block mx-auto w-50" alt="me with me">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class='container p-4' id='linksToWork'>
+        <div class="row">
+            <h1>Repositories</h1>
+            <div class="col-4">
+                <div class="card bg-secondary text-light" style="width: 23rem;">
+                    <img src="/assets/images/Sample repo images/TWHlogo.png" class="card-img-top" alt="Three word history logo">
+                    <div class="card-body">
+                      <h5 class="card-title">Three word history</h5>
+                      <p class="card-text lead">The very first group project assigned from UC Berkeley Bootcamp.  Together in a group of four, we mettled in using an unfamiliar CSS framework, Bulma, and JavaScript library dimplejs.  We accessed two news-related APIs to generate a graph that aggregated the amount of headlines generated in a given date based on the user's keyword.</p>
+                      <p>Languages Used: HTML, CSS, JavaScript</p>
+                      <p><strong>Notice: </strong>While functional, due to API limitations, this application is best run locally until an alternative is available.</p>
+                      <a href="https://github.com/NguyenJohnnyT/three-word-history" target='_blank' class="btn btn-success m-1">Go to the repository!</a>
+                      <a href="https://nguyenjohnnyt.github.io/three-word-history/" target='_blank' class="btn btn-danger m-1">Go to the deployed site!</a>
+                      <a href="#" class="btn btn-warning m-1">See a live sample!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-secondary text-light" style="width: 23rem;">
+                    <img src="./assets/images/Sample repo images/weatherDashboard.png" class="card-img-top" alt="weather dashboard">
+                    <div class="card-body">
+                      <h5 class="card-title">Weather Dashboard</h5>
+                      <p class="card-text lead">A weather dashboard that was my introduction to fetching from an API.  The website features a search history, live updating of the main and secondary cards, and updating the UV index color based on the danger level.</p>
+                      <p>Languages Used: HTML, CSS, JavaScript</p>
+                      <a href="https://github.com/NguyenJohnnyT/weatherDashboard" target='_blank' class="btn btn-success m-1">Go to the repository!</a>
+                      <a href="https://nguyenjohnnyt.github.io/weatherDashboard/" target='_blank' class="btn btn-danger m-1">Go to the deployed site!</a>
+                      <a href="#weather_modal" class="btn btn-warning m-1">See a live sample</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 ">
+                <div class="card bg-secondary text-light" style="width: 23rem;">
+                    <img src="./assets/images/Sample repo images/codequizchallenge.png" class="card-img-top" alt="code quiz challenge logo">
+                    <div class="card-body">
+                      <h5 class="card-title">Code Quiz Challenge</h5>
+                      <p class="card-text lead">An assignment that tests the user on basic coding knowledge.  Features of this application include construction of a high score, local storage to store scores, and resistance to the user breaking the application.</p>
+                      <p>Languages Used: HTML, CSS, JavaScript</p>
+                      <a href="https://github.com/NguyenJohnnyT/CodeQuizChallenge" target='_blank' class="btn btn-success m-1">Go to the repository!</a>
+                      <a href="https://nguyenjohnnyt.github.io/CodeQuizChallenge/" target='_blank' class="btn btn-danger m-1">Go to the deployed site!</a>
+                      <a href="#" class="btn btn-warning m-1">See a live sample!</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="modal fade" id="contactMe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Contact me</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>📞 408-314-7814</p>
+              <p><a href='mailto:johnnytrucnguyen@gmail.com'>📧 johnnytrucnguyen@gmail.com</a></p>
+              <p><a href='https://www.linkedin.com/in/johnny-nguyen-17941532' target='_blank' style='text-decoration: none'>LinkedIn</a></p>
+              <p><a href='https://github.com/NguyenJohnnyT' style='text-decoration: none;'>GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+        <!-- <nav>
+            <h2><a href = "#aboutMe" class='navBar'>About Me</a></h2>
+            <h2><a href = "#linksToWork" class='navBar'>Work</a></h2>
+            <h2><a href = "#contactMe" class='navBar'>Contact Me</a></h2>
+            <h2><a href = "#" class='navBar'>Resume</a></h2>
+        </nav>
+
+        <img src='./assets/images/johnnypfp.jfif' id='hero' alt="fig 1">
+
+        <article>
+            <p id='aboutMe'>
+                Hello and welcome to my website!
+                <br>
+                <br>
+                Based in Santa Clara, California, I am an aspiring programmer with practice in HTML, CSS, JavaScript, and Python.
+                <br>
+                <br>
+                Below you can find a list of projects I have created professionally and for fun. Be sure to click on them to access the deployed application.
+            </p>
+        </article>
+
+        <aside id="linksToWork">
+            <h2 class='highlight'>Projects</h2>
+            <div id = 'linkPics'>
+                <a href="#card1"><img src='./assets/images/cheesekimbap.png' class='linkOption' alt='link option 1'></a>
+                <a href="#card2"><img src='./assets/images/cheesekimbap.png' class='linkOption' alt='link option 2'></a>
+                <a href="#card3"><img src='./assets/images/cheesekimbap.png' class='linkOption' alt='link option 3'></a>
+            </div>
+        </aside>
+
+        <section class="projects">
+            <card id="card1">
+                <h1 class="highlight">Project 1</h1>
+                <a href="https://github.com/NguyenJohnnyT"><img src='./assets/images/cheesekimbap.png' class="proj" alt='project 1'></a>
+            </card>
+            <card id="card2">
+                <h1 class="highlight">Project 2</h1>
+                <a href="https://github.com/NguyenJohnnyT"><img src='./assets/images/cheesekimbap.png' class="proj" alt='project 2'></a>
+            </card>
+            <card id="card3">
+                <h1 class="highlight">Project 3</h1>
+                <a href="https://github.com/NguyenJohnnyT"><img src='./assets/images/cheesekimbap.png' class="proj" alt='project 3'></a>
+            </card>
+        </section>
+
+        <contact id="contactMe">
+            <h2 class='highlight'>Contact Me</h2>
+            <form>
+                <input type="text" class="name" placeholder="First Name">
+                <input type="text" class="name" placeholder="Last Name">
+                <input type="text" class="email" placeholder="Email">
+                <button type="button"> Submit </button>
+            </form>
+        </contact>
+        
+        <footer>
+            <h3 class="separator"><a href = "https://www.linkedin.com/in/johnny-nguyen-17941532/" target="_blank">LinkedIn</a></h2>
+            <h3 class="separator"><a href = "https://github.com/NguyenJohnnyT" target="_blank">GitHub</a></h2>
+            <h3 class="seperator"><a href = "mailto:johnnytrucnguyen@gmail.com">E-mail</a></h3>
+        </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
