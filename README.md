@@ -17,11 +17,11 @@ Access via this [link](https://nguyenjohnnyt.github.io) (https://nguyenjohnnyt.g
 Within this repository are HTML, CSS and image files associated with Johnny's portfolio.  When more projects are added and can be linked, index.html can be updated to include links to those applications.
 
 Example webpage screenshot:
-![screenshot](./assets/images/Readme/websiteTour.gif "Johnny Nguyen's Porfolio on Desktop")
+![screenshot](./assets/images/Readme/20210810_gif.gif "Johnny Nguyen's Porfolio on Desktop")
 
 Example mobile demo:
 
-![mobile demo](./assets/images/Readme/mobileGifDemo.gif "Johnny Nguyen's Portfolio on Mobile")
+![mobile demo](./assets/images/Readme/20210810_mob.gif "Johnny Nguyen's Portfolio on Mobile")
 
 
 ## Credits

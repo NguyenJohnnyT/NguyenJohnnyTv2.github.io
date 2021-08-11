@@ -1,5 +1,16 @@
+body {
+    font-family: 'Gowun Batang', serif;
+}
+
+#linksToWork {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 #accordionExample {
     max-width: 800px;
+}
+.jumbotron {
+    background-color: darkred;
 }
 
 .img-accord {
@@ -15,7 +26,8 @@
 
 .accord-content {
     background:darkblue;
-    color: cornsilk
+    color: cornsilk;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .accordion-button {
