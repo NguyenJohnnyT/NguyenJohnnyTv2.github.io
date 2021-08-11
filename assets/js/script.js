@@ -9,7 +9,7 @@ gifBtn1.addEventListener('click', function (event) {
     displayGifs.empty();
     
     createImg = $('<img>');
-    createImg.attr('src', "./assets/images/Sample repo images/gifs/TWH_demo.gif");
+    createImg.attr('src', "./assets/images/Sample repo images/gifs/PokeBattler.gif");
     createImg.attr('alt', "Three word history demo");
     createImg.attr('style', "max-width: 100%;");
     createImg.addClass('exampleGif');
@@ -35,7 +35,7 @@ gifBtn3.addEventListener('click', function (event) {
     displayGifs.empty();
     
     createImg = $('<img>');
-    createImg.attr('src', "./assets/images/Sample repo images/gifs/codequizchallengeDemo.gif");
+    createImg.attr('src', "./assets/images/Sample repo images/gifs/tech_blog.gif");
     createImg.attr('alt', "codequizchallenge gif");
     createImg.attr('style', "max-width: 100%;");
     createImg.addClass('exampleGif');
